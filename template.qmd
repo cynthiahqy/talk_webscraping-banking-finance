@@ -1,0 +1,24 @@
+---
+title: "Webscraping in FinEco Research: Risks and Opportunities"
+author: 
+ - name: "Cynthia A. Huang"
+   email: "cynthia.huang@monash.edu"
+   affiliation:
+    - "Department of Econometrics and Business Statistics, Monash University"
+bibliography: references.bib
+format: 
+  revealjs: 
+    theme: [default, _extensions/EmilHvitfeldt/letterbox/letterbox.scss, _extensions/numbats/monash/assets/monash.scss]
+    css: [style/custom.css]
+    include-after-body: _extensions/EmilHvitfeldt/letterbox/theme.html
+    width: 1280
+    height: 720
+    slide-number: c/t
+    title-slide-attributes: 
+      data-background-image: "_extensions/numbats/monash/images/bg-02.png"
+      data-background-size: "contain"
+      data-background-position: "center"
+    template-partials:
+      - style/title-slide.html
+---
+
