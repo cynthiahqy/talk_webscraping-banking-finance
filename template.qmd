@@ -7,10 +7,9 @@ author:
     - "Department of Econometrics and Business Statistics, Monash University"
 bibliography: references.bib
 format: 
-  revealjs: 
-    theme: [default, _extensions/EmilHvitfeldt/letterbox/letterbox.scss, _extensions/numbats/monash/assets/monash.scss]
+  letterbox-revealjs: 
+    theme: [default, _extensions/numbats/monash/assets/monash.scss]
     css: [style/custom.css]
-    include-after-body: _extensions/EmilHvitfeldt/letterbox/theme.html
     width: 1280
     height: 720
     slide-number: c/t
@@ -22,3 +21,45 @@ format:
       - style/title-slide.html
 ---
 
+## About Me
+
+- 👩‍🎓 PhD Candidate in Monash EBS
+- Researching principles and methods for "alternative" data
+  - conceptual and practical data provenance tools for harmonised multi-source datasets
+  - adapting web-scraped retail product & price data for public health research
+
+::: aside
+ - Managing scientific risk with web scraping
+            - **time/cost (10min):** tech/tools overview, data collection vs. cleaning (@)
+            - **quality (30min):** bias/variance, sampling issues (@foerdererShouldWeTrust2023), observational vs. analysis resolution (@mengStatisticalParadisesParadoxes2018)
+            - **ethics/legal (10min):** example journal policies [AEA Data](https://www.aeaweb.org/journals/data/data-legality-policy), robots.txt, website T&Cs,
+:::
+
+## Overview
+
+- scoping -> what not how
+- Web-scraping and web-scraped data (slides from EBS evening)
+  - VERB: data collection method, and post-processing methods
+  - NOUN: common properties of data collected via web-scraping
+    - messy by definition
+  - not just getting --> what do with it/things to know about it
+- Preparing to collect
+  - web-scraping both highlights & obscures the fuzziness of what a dataset *is*
+  - defining your target population & dataset -- closed sets vs. open sets
+    - conceptually closed, operationally open (stock prices)
+    - operationally closed, conceptually open (webpages)
+  - ethical & legal considerations -- low legal risk, but journal/publication risk --> CHECK journal policies
+- Resourcing web-scraping projects
+  - harvesting static pages, interactive retrieval of dynamically loaded pages, API queries & hidden info
+  - structured vs unstructured data <--> database/analysis vs. display/present
+  - consider industry data partner
+    - billion prices project
+    - alcohol prices (SG concept diagram)
+- Analysing web-scraped data --> hand over to Patrick
+
+## Alternative data & web-scraping
+
+- "alternative" is:
+    - datasets that are not properly randomised experiment/survey samples and population census
+    - 
+- 
